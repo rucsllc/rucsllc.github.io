@@ -4,28 +4,37 @@ body {
   margin: 0;   
 }
 
+.navbar img {
+    margin: 0 20px; 
+    padding: 0; 
+    height: 3em; 
+    width: auto; 
+}
+
 ul {
     margin: 0; 
-    padding: 20px 0px; 
+    padding: 10px 0px; 
     list-style-type: none;
-    background-color: #2e294e; 
-    color:#fc8a83; 
+    background-color: white; 
     overflow: hidden; 
     font-family: 'Roboto', sans-serif;
-    
+    font-weight: 700; 
+    font-size: 20px; 
+    border-bottom: 5px solid #2e294e;
 }
 
 li {
     float: right; 
+    margin: 20px 0; 
 }
 
 li a {
     text-decoration: none; 
-    color:#fc8a83; 
+    color: #2e294e; 
     padding: 1em 1em;  
 }
 
 
 li a:hover {
-    color: white; 
+    color: #FC8A83; 
 }

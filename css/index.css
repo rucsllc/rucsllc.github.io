@@ -10,6 +10,43 @@ body {
     margin-right: auto; 
 }
 
+.pink-background {
+    z-index: -900; 
+    width: 100%; 
+    position: absolute;
+}
+
 .header {
-    background: 
+    margin-top: 250px; 
+    z-index: 1; 
+    text-align: center; 
+    color: #2E294E; 
+}
+
+table {
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+td {
+    padding: 50px; 
+}
+
+#photo1 {
+    width: auto; 
+    height: 250px; 
+    transform: rotate(-5deg); 
+}
+
+#photo2 {
+    width: auto; 
+    height: 250px;
+    transform: rotate(5deg); 
+    
+}
+
+#photo3 {
+    width: auto; 
+    height: 250px;
+    transform: rotate(-5deg); 
 }

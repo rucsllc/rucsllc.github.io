@@ -2,6 +2,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+}
+
+html {
+    height: 100%; 
 }
 
 .slideshow-container {
@@ -21,6 +26,7 @@ body {
     z-index: 1; 
     text-align: center; 
     color: #2E294E; 
+    font-weight: bold; 
 }
 
 table {
@@ -49,4 +55,12 @@ td {
     width: auto; 
     height: 250px;
     transform: rotate(-5deg); 
+}
+
+.intro-text {
+    padding: 0 300px; 
+    text-align: center; 
+    font-weight: 700; 
+    font-size: 25px; 
+    color: #2E294E; 
 }

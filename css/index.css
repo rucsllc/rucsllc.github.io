@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100%;
@@ -22,16 +23,24 @@ html {
 }
 
 .header {
-    margin-top: 250px; 
+    margin: 250px auto 0; 
     z-index: 1; 
     text-align: center; 
     color: #2E294E; 
     font-weight: bold; 
+    font-size: 2em; 
+    width: 620px; 
 }
 
 table {
     margin-left: auto; 
     margin-right: auto; 
+}
+
+@media only screen and (max-width: 1024px) {
+    table {
+        display: none; 
+    }
 }
 
 td {
@@ -58,9 +67,31 @@ td {
 }
 
 .intro-text {
+    margin-bottom: 70px; 
     padding: 0 300px; 
     text-align: center; 
     font-weight: 700; 
     font-size: 25px; 
     color: #2E294E; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro-text {
+        padding: 0 10px; 
+    }
+}
+
+button {
+    background-color: #2E294E;
+    color: white; 
+    padding: 15px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: none; 
+}
+
+button:hover {
+    color: #2E294E;
+    background-color: white; 
+    
 }
